@@ -1,0 +1,14 @@
+.text1
+{
+    background-color: blue;
+}
+.text2{
+    background-image: "C:\Users\HP\OneDrive\Pictures\Shirisha.image.jpg";
+}
+body{
+    background-image: url('C:\Users\HP\OneDrive\Pictures\Parrot.image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    background-position:top;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myform{
+            border:2px solid;
+            margin-right: 600px;
+            margin-left: 300px;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+        .container{
+            padding-left: 50px;
+            padding-bottom: 10px;
+        }
+.inputfield,textarea{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color:crimson;
+}
+textarea{
+    height: 100px;
+}
+h3{
+    color: blue;
+    padding-left: 50px;
+}
+</style>
+</head>
+<body>
+    <form class="myform">
+<div class="container">
+    <h3>Registration Form</h3>
+    <div>
+    <label>First Name</label><br>
+    <input type="text" id="fname" name="fname" class="input-field">
+</div>
+<div>
+    <label id="labels">Last Name</label><br>
+    <input type="text" id="lname" name="lname" class="input-field"><br>
+</div>
+<div>
+    <label id="labels">Address:</label><br>
+    <textarea></textarea>
+</div>
+<div>
+    <input type="submit">
+    <input type="reset">
+</div>
+</div>
+</form>
+</body>
+</html>
